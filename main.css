@@ -121,6 +121,21 @@ h1 {
   border-bottom: solid 1px rgb(226, 226, 226);
 }
 
+#info {
+  margin-top: 20px;
+  font-size: 0.78rem;
+  list-style: none;
+  margin-bottom: 40px;
+}
+
+#info li {
+  display: inline-block;
+}
+
+#social {
+  float: right;
+}
+
 p {
   box-sizing: border-box;
   padding-top: 20px;
