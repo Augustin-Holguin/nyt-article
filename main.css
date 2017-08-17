@@ -136,7 +136,44 @@ h1 {
   float: right;
 }
 
-p {
+/** IMAGE **/
+
+#image-descr {
+  font-size: 0.8rem;
+  color: #666;
+  font-family: arial;
+  width: 600px;
+  margin-top: 8px;
+}
+
+/** ARTICLE **/
+
+.article {
   box-sizing: border-box;
-  padding-top: 20px;
+  margin-top: 30px;
+  width: 630px;
+  position: relative;
+  display: block;
+  font-family: georgia;
+  font-size: 1.0625rem;
+  line-height: 1.625rem;
+}
+
+#article {
+  margin-left: 60px;
+  width: 540px;
+}
+
+/** BREAK **/
+
+.break {
+  width: 945px;
+}
+
+#video {
+  font-size: 0.8rem;
+  color: #666;
+  font-family: arial;
+  width: 600px;
+  margin-top: 8px;
 }
