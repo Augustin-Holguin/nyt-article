@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/** HEADER **/
+
 header {
   position: fixed;
   width: 100%;
@@ -10,9 +12,11 @@ header {
   background: white;
   padding-top: 12px;
   padding-bottom: 4px;
+  border-bottom: solid 1px #ccc;
+  z-index: 1;
 }
 
-li {
+header li {
   display: inline-block;
   list-style: none;
   text-transform: uppercase;
@@ -44,4 +48,45 @@ li {
   float: left;
   margin-left: 30px;
   padding-top: 5px;
+}
+
+#menu {
+  float: left;
+  margin-left: 22px;
+  padding: 5px 8px;
+  border: solid 1px #cecece;
+  border-radius: 3px;
+}
+
+.space {
+  width: 100%;
+  height: 47px;
+}
+
+/** ARTICLE SUGGESTIONS **/
+
+.suggestions {
+  box-sizing: border-box;
+  height: 82px;
+  font-family: georgia;
+  border-bottom: solid 1px #ccc;
+  width: 100%;
+}
+
+ol li {
+  box-sizing: border-box;
+  display: inline-block;
+  list-style: none;
+  width: 23%;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-right-color: rgb(226, 226, 226);
+  margin: 10px 0px 0px 22px;
+  height: 60px;
+}
+
+p {
+  box-sizing: border-box;
+  padding-top: 20px;
+  margin-left: 10px;
 }
